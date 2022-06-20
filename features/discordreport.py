@@ -19,7 +19,7 @@ from pyspades.server import *
 USER_AGENT = "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:47.0) Gecko/20100101 Firefox/47.0"
 WEBHOOK_URL = "WEBHOOK_URL_HERE"
 LANGUAGE = "EN" #PT/EN
-ROLE_MENTION = "<@!ID_NUMBER_HERE>" #Discord role Mention ID (Optional) FORMAT: <@!ID_NUMBER_HERE>
+ROLE_MENTION = "<@!ID_NUMBER_HERE>" #Discord role Mention ID (Optional) FORMAT: USER <@!ID_NUMBER_HERE> ROLE <@&ID_NUMBER_HERE>
 REPORT_MESSAGE_PT = "**%s** esta reportando o player: **%s**.\n**Motivo**: %s.\n**Servidor**: %s.\nIP: %s\n%s"
 REPORT_MESSAGE_EN = "**%s** is reporting player: **%s**.\n**Reason**: %s.\n**Server**: %s.\nIP: %s\n%s"
 
